@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrhey Benett | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">ANDRHEY<span class="mclaren-orange">.</span></h1>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills & Tools</a></li>
+                <li><a href="#goals">Future Goals</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1 class="hero-title">DRIVEN BY <span class="mclaren-orange">CREATIVITY</span> AND <span class="mclaren-orange">CODE</span>.</h1>
+            <p>Welcome to the portfolio of Andrhey Benett I. Gaylan.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div>
+                <p>Hello! I am Andrhey Benett I. Gaylan, a 18 year old first year BSIT student at DMC - College Foundation Inc. My journey into tech is a bit unconventional. As a working multimedia student specializing in photography, video editing, and doing creatives, I developed a sharp eye for visual details. I decided to study IT to merge my creative background with technical problem-solving.</p>
+                <p>When I am away from my keyboard or camera, you will probably catch me learning new things to trying to find the burgers in town or hunting down the best iced coffee at local cafes around the city while enjoying the busy streets and vibing to music.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills & Tools in Progress</h2>
+            <div class="flex-container">
+                <div class="card">
+                    <h3>Technologies</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>C#</li>
+                        <li>.NET WinForms</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Software Tools</h3>
+                    <ul>
+                        <li>Visual Studio 2026</li>
+                        <li>Visual Studio Code</li>
+                        <li>Notepad++</li>
+                        <li>GitHub</li>
+                        <li>Multimedia Software (CapCut, Premiere, Lightroom)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="goals">
+            <h2>Future Goals</h2>
+            <p>Looking ahead, I am excited to dive deeper into advanced back-end frameworks to build dynamic applications. Given my background in multimedia and my recent school projects like EcoTrack (a C# WinForms garbage management system with a Windows interface), my ultimate career path is geared toward becoming a versatile Software Developer and UI/UX Designer. I want to build interfaces that are as functional as they are visually stunning.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <div class="flex-container">
+                <div class="card">
+                    <h3>Let's Connect</h3>
+                    <p><a href="https://github.com/adrehey" target="_blank">GitHub Profile</a></p>
+                    <p><a href="https://facebook.com/AndrheyBenettGaylan" target="_blank">Facebook</a></p>
+                    <p><a href="https://instagram.com/adrehey" target="_blank">Instagram</a></p>
+                </div>
+                <div class="card">
+                    <h3>Send a Message</h3>
+                    <form id="contactForm">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" required>
+                        
+                        <label for="message">Message:</label>
+                        <textarea id="message" required></textarea>
+                        
+                        <button type="button" id="submitBtn">Send Message</button>
+                        <p id="formFeedback"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

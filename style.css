@@ -1,0 +1,151 @@
+/* Universal Selector */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* Base body styling */
+body {
+    background-color: #111111; /* Sleek dark theme */
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Reusable class for McLaren Orange */
+.mclaren-orange {
+    color: #FF8000; 
+}
+
+/* Header and Navigation */
+header {
+    background-color: #000000;
+    padding: 20px;
+    border-bottom: 2px solid #FF8000;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 50px;
+}
+
+nav li {
+    margin-left: 20px;
+    padding: 5px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #FF8000;
+}
+
+/* Layout and Sections */
+section {
+    padding: 50px 20px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-title {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #FF8000;
+    border-bottom: 1px solid #333333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.card {
+    background-color: #222222;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 50%;
+}
+
+.card h3 {
+    color: #FF8000;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    background-color: #333333;
+    border: 1px solid #555555;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #FF8000;
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #cc6600;
+}
+
+#formFeedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Content links */
+p a {
+    color: #FF8000;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
