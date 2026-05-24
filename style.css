@@ -13,7 +13,7 @@ body {
 
 /* Reusable class for McLaren Orange */
 .mclaren-orange {
-    color: #FF8000; 
+    color: #FF8000;
 }
 
 /* Header and Navigation */
@@ -21,6 +21,25 @@ header {
     background-color: #000000;
     padding: 20px;
     border-bottom: 2px solid #FF8000;
+}
+
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.about-text {
+    font-size: 30px;
+    flex-shrink: 1;
+}
+
+.profile-img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #FF8000;
+    flex-shrink: 0;
 }
 
 nav {
@@ -52,9 +71,9 @@ nav a {
     transition: color 0.3s ease;
 }
 
-nav a:hover {
-    color: #FF8000;
-}
+    nav a:hover {
+        color: #FF8000;
+    }
 
 /* Layout and Sections */
 section {
@@ -92,9 +111,9 @@ h2 {
     width: 50%;
 }
 
-.card h3 {
-    color: #FF8000;
-}
+    .card h3 {
+        color: #FF8000;
+    }
 
 /* Form Styling */
 form {
@@ -131,9 +150,9 @@ button {
     transition: background-color 0.3s ease;
 }
 
-button:hover {
-    background-color: #cc6600;
-}
+    button:hover {
+        background-color: #cc6600;
+    }
 
 #formFeedback {
     margin-top: 10px;
@@ -146,6 +165,6 @@ p a {
     text-decoration: none;
 }
 
-p a:hover {
-    text-decoration: underline;
-}
+    p a:hover {
+        text-decoration: underline;
+    }
